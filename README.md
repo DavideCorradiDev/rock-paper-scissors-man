@@ -20,7 +20,15 @@ EXECUTABLES
 
 windows .exe: https://www.dropbox.com/s/ufcf3wz06u0tk1n/rpsman-win.zip?dl=0
 
-If you have the Love2D launcher installed, you can run the game with the .love file. On windows you can run the .exe file even without having Love2D installed.
+On Windows, you can run the .exe file even without having Love2D installed.
+If you have the Love2D launcher installed, you can run the game with the .love file.
+On Linux, you can call the Love2D launcher from the source code root:
+```
+cd /path/to/repo/root
+love .
+```
+
+For information on how to install Love2D, refer to the Love2D website.
 
 
 
