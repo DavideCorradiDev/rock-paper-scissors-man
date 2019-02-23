@@ -277,14 +277,14 @@ return function(P)
 		arg = arg or {}
 		self.width = arg.width or 80
 		self.height = arg.height or 20
-		self.fillNormal = arg.fillNormal or res.Color(25, 25, 25)
-		self.fillSelected = arg.fillSelected or res.Color(50, 50, 50)
-		self.fillFocused = arg.fillFocused or res.Color(50, 50, 50)
+		self.fillNormal = arg.fillNormal or res.Color(0.1, 0.1, 0.1)
+		self.fillSelected = arg.fillSelected or res.Color(0.2, 0.2, 0.2)
+		self.fillFocused = arg.fillFocused or res.Color(0.2, 0.2, 0.2)
 		self.lineNormal = arg.lineNormal or res.Color(0, 0, 0)
 		self.lineSelected = arg.lineSelected or res.Color(0, 0, 0)
 		self.lineFocused = arg.lineFocused or res.Color(0, 0, 0)
 		self.font = arg.font or love.graphics.getFont()
-		self.textColor = arg.textColor or res.Color(255, 255, 255)
+		self.textColor = arg.textColor or res.Color(1, 1, 1)
 		self.hmargin = arg.hmargin or 4
 	end
 

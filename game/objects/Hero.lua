@@ -25,7 +25,7 @@ return function(P)
 	local invincibilityTime = 6
 	local invulnerabilityTime = 1
 	local shieldRadius = 10
-	local shieldColor = {r = 171, g = 255, b = 171, a = 120}
+	local shieldColor = {r = 0.5, g = 1, b = 0.5, a = 0.25}
 
 
 	function Hero:new(arg)
@@ -152,7 +152,7 @@ return function(P)
 			self._shape = shape
 			self._visuals[self._shape]:restart()
 			if self._transformSound then
-				self._transformSound:rewind()
+				self._transformSound:seek(0)
 				self._transformSound:play()
 			end
 		end
@@ -279,7 +279,7 @@ return function(P)
 			-- self._visuals.shield:draw()
 			love.graphics.setColor(shieldColor.r, shieldColor.g, shieldColor.b, shieldColor.a)
 			love.graphics.circle('fill', self:getOrigin().x, self:getOrigin().y, shieldRadius, 10)
-			love.graphics.setColor(255, 255, 255, 255)
+			love.graphics.setColor(1, 1, 1, 1)
 		end
 		if self:isInvincible() then
 			self._visuals.invincible:draw()

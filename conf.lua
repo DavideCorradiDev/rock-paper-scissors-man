@@ -1,6 +1,6 @@
 function love.conf(t)
 	t.title = "Rock Paper Scissors Man"
-	t.version = "0.10.0"
+	t.version = "11.2"
 	-- t.window.width = 288
 	-- t.window.height = 216
 	t.window.width = 864

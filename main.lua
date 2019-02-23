@@ -140,7 +140,7 @@ function love.draw()
 
 	love.graphics.push()
 		love.graphics.scale(pixelScale, pixelScale)
-		love.graphics.setColor(255,255,255,255)
+		love.graphics.setColor(1 ,1 ,1 ,1 )
 		love.graphics.draw(canvas)
 	love.graphics.pop()
 

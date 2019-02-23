@@ -101,7 +101,7 @@ return function(P)
 		elseif self._type == 'shield' then
 			hero:activateShield()
 		end
-		sounds[self._type]:rewind()
+		sounds[self._type]:seek(0)
 		sounds[self._type]:play()
 	end
 

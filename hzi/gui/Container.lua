@@ -356,8 +356,8 @@ return function(P)
 		arg = arg or {}
 		self.width = arg.width or 40
 		self.height = arg.height or 20
-		self.fillNormal = arg.fillNormal or res.Color(50, 50, 50)
-		self.fillSelected = arg.fillSelected or res.Color(100, 100, 100)
+		self.fillNormal = arg.fillNormal or res.Color(0.2, 0.2, 0.2)
+		self.fillSelected = arg.fillSelected or res.Color(0.4, 0.4, 0.4)
 		self.lineNormal = arg.lineNormal or res.Color(0, 0, 0)
 		self.lineSelected = arg.lineSelected or res.Color(0, 0, 0)
 	end

@@ -48,6 +48,6 @@ return function(P)
 
 	--- contains music tracks. Music tracks are buffered from the disk.
 	--- @field music
-	music = createResourceTable(function(k) return love.audio.newSource('data/music/' .. k .. '.mp3') end)
+	music = createResourceTable(function(k) return love.audio.newSource('data/music/' .. k .. '.mp3', 'stream') end)
 
 end

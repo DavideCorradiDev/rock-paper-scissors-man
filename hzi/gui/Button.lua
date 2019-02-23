@@ -123,9 +123,9 @@ return function(P)
 		arg = arg or {}
 		self.width = arg.width or 40
 		self.height = arg.height or 20
-		self.fillNormal = arg.fillNormal or res.Color(200, 200, 200)
-		self.fillSelected = arg.fillSelected or res.Color(255, 255, 255)
-		self.fillFocused = arg.fillFocused or res.Color(255, 200, 200)
+		self.fillNormal = arg.fillNormal or res.Color(0.8, 0.8, 0.8)
+		self.fillSelected = arg.fillSelected or res.Color(1, 1, 1)
+		self.fillFocused = arg.fillFocused or res.Color(1, 0.8, 0.8)
 		self.lineNormal = arg.lineNormal or res.Color(0, 0, 0)
 		self.lineSelected = arg.lineSelected or res.Color(0, 0, 0)
 		self.lineFocused = arg.lineFocused or res.Color(0, 0, 0)
